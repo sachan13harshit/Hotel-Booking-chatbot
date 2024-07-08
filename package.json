@@ -1,0 +1,17 @@
+{
+  "name": "hotel-booking-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:backend": "cd backend && node server.js",
+    "start:frontend": "cd frontend && npm start",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "install": "cd backend && npm install && cd ../frontend && npm install"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
